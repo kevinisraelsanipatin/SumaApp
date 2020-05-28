@@ -11,9 +11,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    // Operando número 1
     private EditText num1;
+    // Operando número 2
     private EditText num2;
+    // Resultado de la operación
     private TextView resp;
+    // Botón para realizar la suma
     private Button btn;
 
     @Override
@@ -27,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         btn = (Button) findViewById(R.id.btnSuma);
     }
 
-    //Método para realiza la operacione Suma
+    //Método para realizar la operacion de Suma
     public void calcular(View view){
         String n1 = num1.getText().toString();
         String n2 = num2.getText().toString();
@@ -59,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         return retorno;
     }
 
+    // Método que facilita la re inicialización de los datos de la aplicación
     public void limpiar(View view){
         num1.setText("");
         num2.setText("");
