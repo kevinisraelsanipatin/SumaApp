@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SumaApp</string>
+    <string name="txt_num1">Primer Valor</string>
+    <string name="txt_num2">Segundo Valor</string>
+    <string name="txt_resu">Resultado</string>
+    <string name="btn_suma">SUMAR</string>
+    <string name="btn_limpiar">LIMPIAR</string>
+</resources>
