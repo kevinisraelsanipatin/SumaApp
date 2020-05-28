@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Método para validar los datos
     public boolean validar(){
         boolean retorno = true;
         String n1 = num1.getText().toString();
